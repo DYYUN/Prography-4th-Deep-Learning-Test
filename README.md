@@ -46,4 +46,8 @@ Accuracy of horse : 83 %
 Accuracy of sheep : 89 %
 Accuracy of tiger : 91 %</code></pre>
 
+파일 다운로드에 문제가 있을 시 아래의 구글 드라이브 링크를 사용하시면 됩니다.
+
+https://drive.google.com/drive/folders/1SHznU80Zg3YUl2mhij_RCWKmkT-Y5-f2?usp=sharing
+
 감사합니다.
