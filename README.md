@@ -4,7 +4,7 @@ Image Classification with own dataset
 
 프로그라피 4기 지원자 윤대영입니다.
 
-윈도우에서 최신 버전의 Anaconda와 CUDA를 설치하고 pytorch, matplotlib을 설치한 뒤 동작시켰습니다.
+윈도우에서 최신 버전의 Anaconda와 CUDA를 설치하고 가상 환경에서 pytorch, matplotlib을 설치한 뒤 동작시켰습니다.
 
 구체적으로 Anaconda prompt에서 다음 명령어를 입력합니다.
 
@@ -26,13 +26,13 @@ train 시간은 제 환경 기준으로 (GTX1050 2GB, CUDA 10) 대략 40분 정�
 
 베이스 코드는 https://github.com/jinfagang/pytorch_image_classifier 를 참조했습니다.
 
-모든 환경과 library, 러닝의 배경 지식조차 처음 접해보는거라 세팅에 시간이 오래 걸려 개념을 다 이해하지 못했습니다.
+모든 환경과 library, 러닝의 배경 지식조차 처음 접해보는거라 세팅에 시간이 오래 걸려 개념을 다 이해하지는 못했습니다.
 
-사실상 알고리즘은 거의 동일하며, 과제 요건에 맞도록 파일 구성을 수정하고, 
+사실상 train 알고리즘은 원 코드와 거의 동일하며, 과제 요건에 맞도록 파일 구성을 수정하고, 
 
 버전에 맞지 않는 함수들과 그에 따라오는 몇 가지 dimension 문제들을 수정하였습니다.
 
-정상 동작 시 test.py 의 output은 아래처럼 나옵니다.
+test 의 경우 정상 동작 시 output은 아래처럼 나옵니다.
 
 <pre><code>Accuracy of the network on the 2215 test images: 83 %
 Accuracy of  bear : 91 %
