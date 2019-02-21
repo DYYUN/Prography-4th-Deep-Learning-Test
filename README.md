@@ -2,6 +2,8 @@
 Image Classification with own dataset
 
 
+프로그라피 4기 지원자 윤대영입니다.
+
 윈도우에서 최신 버전의 Anaconda와 CUDA를 설치하고 pytorch, matplotlib을 설치한 뒤 동작시켰습니다.
 
 구체적으로 Anaconda prompt에서 다음 명령어를 입력합니다.
@@ -11,7 +13,7 @@ $ activate pytorch
 $ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 $ pip install matplotlib</code></pre>
 
-그 뒤, models.py, train.py, test.py와 data가 들어있는 dataset 폴더를 한 폴더에 넣습니다.
+그 뒤, models.py, train.py, test.py와 train/test data가 들어있는 dataset 폴더를 한 폴더에 넣습니다.
 
 Anaconda prompt로 그 폴더에 접근한 뒤 다음 명령어를 입력하면 코드가 실행됩니다.
 
@@ -30,4 +32,4 @@ train 시간은 제 환경 기준으로 (GTX1050 2GB, CUDA 10) 대략 40분 정�
 
 버전에 맞지 않는 함수들과 그에 따라오는 몇 가지 dimension 문제들을 수정하였습니다.
 
-git도 처음이라 reference를 어떻게 걸어야 할 지도 모르겠네요. 문제 된다면 연락주시면 감사하겠습니다.
+감사합니다.
