@@ -9,17 +9,14 @@ Image Classification with own dataset
 <pre><code>$ conda create -y -n pytorch ipykernel
 $ activate pytorch
 $ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
-$ pip install matplotlib
-</code></pre>
+$ pip install matplotlib</code></pre>
 
 그 뒤, models.py, train.py, test.py와 data가 들어있는 dataset 폴더를 한 폴더에 넣습니다.
 
 Anaconda prompt로 그 폴더에 접근한 뒤 다음 명령어를 입력하면 코드가 실행됩니다.
 
-<pre><code>
-python train.py dataset/train
-python test.py dataset/test mymodel.pth
-</code></pre>
+<pre><code>python train.py dataset/train
+python test.py dataset/test mymodel.pth</code></pre>
 
 train.py의 결과는 output 파일이 overload 되지 않도록 mymodel.pth가 아닌 model_new.pth로 저장되게 해두었습니다.
 
