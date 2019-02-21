@@ -25,11 +25,9 @@ train.py의 결과는 output 파일이 overload 되지 않도록 mymodel.pth가 
 
 train 시간은 제 환경 기준으로 (GTX1050 2GB, CUDA 10) 대략 40분 정도 소요됩니다. 빠른 실행 하시려면 train.py의 epoch 수를 줄이면 됩니다.
 
-모든 환경과 library, 배경 지식조차 처음 접해보는거라 세팅에 시간이 오래 걸려 코드를 충분히 이해하지 못했습니다.
+베이스 코드는 https://github.com/jinfagang/pytorch_image_classifier 를 참조했습니다.
 
-때문에 주석이 충분치 않은 점 양해 부탁드립니다.
-
-모든 코드는 https://github.com/jinfagang/pytorch_image_classifier 를 참조했습니다.
+모든 환경과 library, 러닝의 배경 지식조차 처음 접해보는거라 세팅에 시간이 오래 걸려 개념을 다 이해하지 못했습니다.
 
 사실상 알고리즘은 거의 동일하며, 과제 요건에 맞도록 파일 구성과 버전에 맞지 않는 명령어들, 
 
