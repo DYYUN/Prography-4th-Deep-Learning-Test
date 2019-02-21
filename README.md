@@ -32,4 +32,18 @@ train 시간은 제 환경 기준으로 (GTX1050 2GB, CUDA 10) 대략 40분 정�
 
 버전에 맞지 않는 함수들과 그에 따라오는 몇 가지 dimension 문제들을 수정하였습니다.
 
+정상 동작 시 test.py 의 output은 아래처럼 나옵니다.
+
+<pre><code>Accuracy of the network on the 2215 test images: 83 %
+Accuracy of  bear : 91 %
+Accuracy of  bird : 82 %
+Accuracy of butterfly : 92 %
+Accuracy of   car : 97 %
+Accuracy of   cat : 86 %
+Accuracy of  deer : 82 %
+Accuracy of   dog : 57 %
+Accuracy of horse : 83 %
+Accuracy of sheep : 89 %
+Accuracy of tiger : 91 %</code></pre>
+
 감사합니다.
